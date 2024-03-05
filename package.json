@@ -1,5 +1,6 @@
 {
-  "name": "mechanical-mass",
+  "name": "thoughts.latsprince.com",
+  "private": true,
   "version": "4.2.0",
   "scripts": {
     "dev": "astro dev",
