@@ -6,9 +6,7 @@ featured: true
 draft: false
 tags:
   - year-in-review
-description:
-  Some rules & recommendations for creating or adding new posts using AstroPaper
-  theme.
+description: 2026 year in review. ported from Medium
 ---
 
 Written on 2016-12-30, and first published at [Medium](https://medium.com/@lq_ufo9706/oops-yet-another-year-in-review-2016-wandering-5b89fa3cc35b)
