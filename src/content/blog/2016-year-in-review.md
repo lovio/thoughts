@@ -2,7 +2,7 @@
 author: Qi Liu
 pubDatetime: 2016-12-30
 title: Oops! Yet Another Year In Review – 2016, Wandering
-featured: true
+featured: false
 draft: false
 tags:
   - year-in-review
