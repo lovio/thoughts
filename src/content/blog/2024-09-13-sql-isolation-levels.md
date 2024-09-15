@@ -78,6 +78,7 @@ A - strict interpretation
 
 ## Thoughts
 
-- Isolation level 是 trade-off。隔离级别越低，性能越好。所以如果你能把我好业务需求，降低隔离级别可以省很多钱。
+- Isolation level 是 trade-off。隔离级别越低，性能越好。所以如果你能把我好业务需求，降低隔离级别可以省很多钱。当然隔离级别越高，代码可以更省心，少考虑一些。
 - 比如MySQL，我们知道默认的隔离级别是REPEATABLE READ。但是很多Cloud RDS提供的默认都是Read Committed，因为Read Committed的性能更好。
 - 生产中，一般都会使用 RC 或者 RR，但是两者差异很大，小心不要出bug哦！
+- 实现Serializable是非常昂贵的，没有几个人真的回去用，所以为什么还要实现呢？
