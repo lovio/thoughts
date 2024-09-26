@@ -6,7 +6,7 @@ featured: true
 tags:
   - database
   - MVCC
-description: "asd"
+description: "SQL isolation levles is a crucial topic"
 ---
 
 ## Table of contents
