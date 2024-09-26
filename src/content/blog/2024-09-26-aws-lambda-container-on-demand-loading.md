@@ -31,7 +31,7 @@ Container 部署方式的性能上做了很多努力，但是我依然建议大�
 
 &emsp;&emsp;从标题上，我们也可以知道，这篇论文主要谈论的是 Loading, ON-DEMAND.
 
-## AWS Lambda's Design Goal
+## AWS Lambda's Design Goals
 
 - Rapid Scale
   - adding up to 15,000 new containers per second for a single customer
