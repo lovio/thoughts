@@ -1,11 +1,11 @@
 ---
 author: Qi Liu
 pubDatetime: 2024-09-09
-title: "Selected Papers - <<MyRocks: LSM-Tree Database Storage Engine Serving Facebook's Social Graph>>"
+title: "MyRocks: LSM-Tree Database Storage Engine Serving Facebook's Social Graph"
 featured: true
 draft: true
 tags:
-  - papers
+  - Paper
   - database
   - RocksDB
 description: |
