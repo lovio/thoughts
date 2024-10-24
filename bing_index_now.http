@@ -1,0 +1,47 @@
+# https://github.com/Huachao/vscode-restclient
+###
+POST https://api.indexnow.org/IndexNow
+Content-Type: application/json; charset=utf-8
+
+{
+  "host": "thoughts.latsprince.com",
+  "key": "11b5adc62a8d43e78f556eae9ce9e136",
+  "keyLocation": "https://thoughts.latsprince.com/11b5adc62a8d43e78f556eae9ce9e136.txt",
+  "urlList": [
+    "https://thoughts.latsprince.com/",
+    "https://thoughts.latsprince.com/posts/",
+    "https://thoughts.latsprince.com/posts/1/",
+    "https://thoughts.latsprince.com/posts/2016-year-in-review/",
+    "https://thoughts.latsprince.com/posts/2024-09-06-cpp-string-implementation/",
+    "https://thoughts.latsprince.com/posts/2024-09-09-why-cpp-crtp/",
+    "https://thoughts.latsprince.com/posts/2024-09-13-sql-isolation-levels/",
+    "https://thoughts.latsprince.com/posts/2024-09-26-aws-lambda-container-on-demand-loading/",
+    "https://thoughts.latsprince.com/posts/2024-10-03-why-nodejs-json-sucks/",
+    "https://thoughts.latsprince.com/posts/2024-10-12-scalable-predictable-fully-managed-dynamodb/",
+    "https://thoughts.latsprince.com/posts/2024-10-23-what-goes-around-comes-around-2nd/",
+    "https://thoughts.latsprince.com/search/",
+    "https://thoughts.latsprince.com/tags/",
+    "https://thoughts.latsprince.com/tags/aws/",
+    "https://thoughts.latsprince.com/tags/aws/1/",
+    "https://thoughts.latsprince.com/tags/container/",
+    "https://thoughts.latsprince.com/tags/container/1/",
+    "https://thoughts.latsprince.com/tags/cpp/",
+    "https://thoughts.latsprince.com/tags/cpp/1/",
+    "https://thoughts.latsprince.com/tags/database/",
+    "https://thoughts.latsprince.com/tags/database/1/",
+    "https://thoughts.latsprince.com/tags/dynamodb/",
+    "https://thoughts.latsprince.com/tags/dynamodb/1/",
+    "https://thoughts.latsprince.com/tags/mvcc/",
+    "https://thoughts.latsprince.com/tags/mvcc/1/",
+    "https://thoughts.latsprince.com/tags/nodejs/",
+    "https://thoughts.latsprince.com/tags/nodejs/1/",
+    "https://thoughts.latsprince.com/tags/paper/",
+    "https://thoughts.latsprince.com/tags/paper/1/",
+    "https://thoughts.latsprince.com/tags/seastar/",
+    "https://thoughts.latsprince.com/tags/seastar/1/",
+    "https://thoughts.latsprince.com/tags/serverless/",
+    "https://thoughts.latsprince.com/tags/serverless/1/",
+    "https://thoughts.latsprince.com/tags/year-in-review/",
+    "https://thoughts.latsprince.com/tags/year-in-review/1/"
+  ]
+}
