@@ -33,10 +33,10 @@ ${body}
 
 const sites = [
   {
-    host: "thoughts.latsprince.com",
+    host: "latsprince.com",
     key: "11b5adc62a8d43e78f556eae9ce9e136",
-    keyLocation: "https://thoughts.latsprince.com/11b5adc62a8d43e78f556eae9ce9e136.txt",
-    sitemapURL: "https://thoughts.latsprince.com/sitemap-0.xml",
+    keyLocation: "https://latsprince.com/11b5adc62a8d43e78f556eae9ce9e136.txt",
+    sitemapURL: "https://latsprince.com/sitemap-0.xml",
   },
 ];
 

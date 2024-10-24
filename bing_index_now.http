@@ -4,9 +4,9 @@ POST https://api.indexnow.org/IndexNow
 Content-Type: application/json; charset=utf-8
 
 {
-  "host": "thoughts.latsprince.com",
+  "host": "latsprince.com",
   "key": "11b5adc62a8d43e78f556eae9ce9e136",
-  "keyLocation": "https://thoughts.latsprince.com/11b5adc62a8d43e78f556eae9ce9e136.txt",
+  "keyLocation": "https://latsprince.com/11b5adc62a8d43e78f556eae9ce9e136.txt",
   "urlList": [
     "https://thoughts.latsprince.com/",
     "https://thoughts.latsprince.com/posts/",
