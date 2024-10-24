@@ -8,6 +8,8 @@ import Hr from "@components/Hr.astro";
 import Card from "@components/Card";
 import Socials from "@components/Socials.astro";
 import getSortedPosts from "@utils/getSortedPosts";
+import { Image } from "astro:assets";
+import Feynman from "@assets/images/feynman.png";
 import { SOCIALS } from "@config";
 
 const posts = await getCollection("blog");
@@ -22,6 +24,10 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 <Layout>
   <Header />
   <main id="main-content">
+    <section id="feynman">
+      <Image src={Feynman} alt="Richard Feynman" class="w-full" />
+    </section>
+
     <section id="hero">
       <p>世界上最好的三门语言是 C++/Golang/JavaScript</p>
       <p>
