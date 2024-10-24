@@ -1,0 +1,20 @@
+---
+const gtag_id = import.meta.env.GTAG_ID
+---
+<!-- Google Tag Manager -->
+{
+    import.meta.env.PROD && (
+        // For Tag Manager web page installations, you must create a data layer. The highlighted code below shows where the data layer is established, before Tag Manager is loaded.
+        <>
+        <script is:inline>
+        window.dataLayer = window.dataLayer || [];
+        </script>
+        <script is:inline define:vars={{ gtag_id }}>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer',gtag_id);</script>
+        </>
+    )
+}
+<!-- End Google Tag Manager -->

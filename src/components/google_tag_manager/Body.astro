@@ -1,0 +1,17 @@
+---
+const gtag_id = import.meta.env.GTAG_ID;
+---
+
+<!-- Add the noscript tag for Google Tag Manager. -->{
+  import.meta.env.PROD && (
+    <noscript>
+      <iframe
+        src={`https://www.googletagmanager.com/ns.html?id=${gtag_id}`}
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+      />
+    </noscript>
+  )
+}
+<!-- End Google Tag Manager (noscript) -->
