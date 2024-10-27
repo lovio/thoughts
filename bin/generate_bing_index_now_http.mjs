@@ -2,6 +2,8 @@ import xml2js from "xml2js";
 import { writeFile } from "node:fs/promises";
 import path from "node:path";
 
+const key = "e7871aa1b1ec4721b5051a1dc2f81be9"
+
 async function getAllLocFromSitemap(sitemapUrl) {
   const text = await fetch(sitemapUrl).then((response) => response.text());
   const parser = new xml2js.Parser();
@@ -34,8 +36,8 @@ ${body}
 const sites = [
   {
     host: "latsprince.com",
-    key: "11b5adc62a8d43e78f556eae9ce9e136",
-    keyLocation: "https://latsprince.com/11b5adc62a8d43e78f556eae9ce9e136.txt",
+    key,
+    keyLocation: `https://latsprince.com/${key}.txt`,
     sitemapURL: "https://latsprince.com/sitemap-0.xml",
   },
 ];
