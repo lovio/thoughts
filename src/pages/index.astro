@@ -34,7 +34,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         数据库内核工程师，目前正在努力做世界先进的分析数据库
         <a
           href="https://clapdb.com/"
-          class="text-lg font-medium decoration-dashed hover:underline inline-block text-lg font-medium text-skin-accent decoration-dashed underline-offset-4 focus-visible:no-underline focus-visible:underline-offset-0"
+          class="inline-block text-lg text-lg font-medium font-medium text-skin-accent decoration-dashed decoration-dashed underline-offset-4 hover:underline focus-visible:no-underline focus-visible:underline-offset-0"
           >ClapDB</a
         >
       </p>
@@ -60,12 +60,8 @@ const socialCount = SOCIALS.filter(social => social.active).length;
           <section id="featured">
             <h2>Featured</h2>
             <ul>
-              {featuredPosts.map(({ data, slug }) => (
-                <Card
-                  href={`/posts/${slug}/`}
-                  frontmatter={data}
-                  secHeading={false}
-                />
+              {featuredPosts.map(({ data, id }) => (
+                <Card href={`/posts/${id}/`} frontmatter={data} />
               ))}
             </ul>
           </section>
@@ -80,14 +76,8 @@ const socialCount = SOCIALS.filter(social => social.active).length;
           <h2>Recent Posts</h2>
           <ul>
             {recentPosts.map(
-              ({ data, slug }, index) =>
-                index < 4 && (
-                  <Card
-                    href={`/posts/${slug}/`}
-                    frontmatter={data}
-                    secHeading={false}
-                  />
-                )
+              ({ data, id }, index) =>
+                index < 4 && <Card href={`/posts/${id}/`} frontmatter={data} />
             )}
           </ul>
         </section>

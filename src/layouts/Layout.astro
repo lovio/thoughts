@@ -1,7 +1,7 @@
 ---
 import { LOCALE, SITE } from "@config";
 import "@styles/base.css";
-import { ViewTransitions } from "astro:transitions";
+import { ClientRouter } from "astro:transitions";
 
 import GoogleTagManagerHead from "@components/google_tag_manager/Head.astro";
 import GoogleTagManagerBody from "@components/google_tag_manager/Body.astro";
@@ -109,7 +109,7 @@ const socialImageURL = new URL(
     }
 
     <GoogleTagManagerHead />
-    <ViewTransitions />
+    <ClientRouter />
 
     <script is:inline src="/toggle-theme.js"></script>
   </head>
