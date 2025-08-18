@@ -18,8 +18,8 @@ importers:
         specifier: ^2.6.0
         version: 2.6.0
       astro:
-        specifier: ^5.12.9
-        version: 5.12.9(@types/node@20.11.17)(jiti@1.21.0)(lightningcss@1.23.0)(rollup@4.41.1)(terser@5.27.0)(typescript@5.3.3)(yaml@2.6.0)
+        specifier: ^5.13.2
+        version: 5.13.2(@types/node@20.11.17)(jiti@1.21.0)(lightningcss@1.23.0)(rollup@4.41.1)(terser@5.27.0)(typescript@5.3.3)(yaml@2.6.0)
       fuse.js:
         specifier: ^7.0.0
         version: 7.0.0
@@ -46,11 +46,11 @@ importers:
         specifier: ^4.3.0
         version: 4.3.0(@types/node@20.11.17)(@types/react-dom@18.2.19)(@types/react@18.2.55)(jiti@1.21.0)(lightningcss@1.23.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(terser@5.27.0)(yaml@2.6.0)
       '@astrojs/sitemap':
-        specifier: ^3.4.2
-        version: 3.4.2
+        specifier: ^3.5.0
+        version: 3.5.0
       '@astrojs/tailwind':
         specifier: ^6.0.2
-        version: 6.0.2(astro@5.12.9(@types/node@20.11.17)(jiti@1.21.0)(lightningcss@1.23.0)(rollup@4.41.1)(terser@5.27.0)(typescript@5.3.3)(yaml@2.6.0))(tailwindcss@3.4.1)
+        version: 6.0.2(astro@5.13.2(@types/node@20.11.17)(jiti@1.21.0)(lightningcss@1.23.0)(rollup@4.41.1)(terser@5.27.0)(typescript@5.3.3)(yaml@2.6.0))(tailwindcss@3.4.1)
       '@divriots/jampack':
         specifier: ^0.23.2
         version: 0.23.3(@swc/helpers@0.5.17)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
@@ -138,8 +138,8 @@ packages:
   '@astrojs/compiler@2.5.3':
     resolution: {integrity: sha512-jzj01BRv/fmo+9Mr2FhocywGzEYiyiP2GVHje1ziGNU6c97kwhYGsnvwMkHrncAy9T9Vi54cjaMK7UE4ClX4vA==}
 
-  '@astrojs/internal-helpers@0.7.1':
-    resolution: {integrity: sha512-7dwEVigz9vUWDw3nRwLQ/yH/xYovlUA0ZD86xoeKEBmkz9O6iELG1yri67PgAPW6VLL/xInA4t7H0CK6VmtkKQ==}
+  '@astrojs/internal-helpers@0.7.2':
+    resolution: {integrity: sha512-KCkCqR3Goym79soqEtbtLzJfqhTWMyVaizUi35FLzgGSzBotSw8DB1qwsu7U96ihOJgYhDk2nVPz+3LnXPeX6g==}
 
   '@astrojs/language-server@2.15.3':
     resolution: {integrity: sha512-2qYkHkiqduB2F6OY+zAikd2hZP1xq5LqB0RqLCMoT7KLbfspnx6qtxOueF2n1P4+YUXRHUJVfLA4FoJCEfoMDg==}
@@ -153,8 +153,8 @@ packages:
       prettier-plugin-astro:
         optional: true
 
-  '@astrojs/markdown-remark@6.3.5':
-    resolution: {integrity: sha512-MiR92CkE2BcyWf3b86cBBw/1dKiOH0qhLgXH2OXA6cScrrmmks1Rr4Tl0p/lFpvmgQQrP54Pd1uidJfmxGrpWQ==}
+  '@astrojs/markdown-remark@6.3.6':
+    resolution: {integrity: sha512-bwylYktCTsLMVoCOEHbn2GSUA3c5KT/qilekBKA3CBng0bo1TYjNZPr761vxumRk9kJGqTOtU+fgCAp5Vwokug==}
 
   '@astrojs/prism@3.3.0':
     resolution: {integrity: sha512-q8VwfU/fDZNoDOf+r7jUnMC2//H2l0TuQ6FkGJL8vD8nw/q5KiL3DS1KKBI3QhI9UQhpJ5dc7AtqfbXWuOgLCQ==}
@@ -172,8 +172,8 @@ packages:
   '@astrojs/rss@4.0.12':
     resolution: {integrity: sha512-O5yyxHuDVb6DQ6VLOrbUVFSm+NpObulPxjs6XT9q3tC+RoKbN4HXMZLpv0LvXd1qdAjzVgJ1NFD+zKHJNDXikw==}
 
-  '@astrojs/sitemap@3.4.2':
-    resolution: {integrity: sha512-wfN2dZzdkto6yaMtOFa/J9gc60YE3wl3rgSBoNJ+MU3lJVUMsDY9xf9uAVi8Mp/zEQKFDSJlQzBvqQUpw0Hf6g==}
+  '@astrojs/sitemap@3.5.0':
+    resolution: {integrity: sha512-ldOvoBxuRgpcdndzksskOTzU55g76tkHC/POpejUbPGz6zR4rJKiXh8thX4WEPWDhCTZUafhJ1qf7k1muStHfg==}
 
   '@astrojs/tailwind@6.0.2':
     resolution: {integrity: sha512-j3mhLNeugZq6A8dMNXVarUa8K6X9AW+QHU9u3lKNrPLMHhOQ0S7VeWhHwEeJFpEK1BTKEUY1U78VQv2gN6hNGg==}
@@ -1491,8 +1491,8 @@ packages:
     resolution: {integrity: sha512-CGaBseNtunAV2DCpwBXqTKq8+9Tw65XZetMaC0FsMoZuLj0gxNIkbCf2QyKYScVrNOU7/ayfNdVw8ZCSHBiqCg==}
     engines: {node: ^14.18.0 || >=16.0.0}
 
-  astro@5.12.9:
-    resolution: {integrity: sha512-cZ7kZ61jyE5nwSrFKSRyf5Gds+uJELqQxJFqMkcgiWQvhWZJUSShn8Uz3yc9WLyLw5Kim5P5un9SkJSGogfEZQ==}
+  astro@5.13.2:
+    resolution: {integrity: sha512-yjcXY0Ua3EwjpVd3GoUXa65HQ6qgmURBptA+M9GzE0oYvgfuyM7bIbH8IR/TWIbdefVUJR5b7nZ0oVnMytmyfQ==}
     engines: {node: 18.20.8 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -4304,7 +4304,7 @@ snapshots:
 
   '@astrojs/compiler@2.5.3': {}
 
-  '@astrojs/internal-helpers@0.7.1': {}
+  '@astrojs/internal-helpers@0.7.2': {}
 
   '@astrojs/language-server@2.15.3(prettier-plugin-astro@0.13.0)(prettier@3.2.5)(typescript@5.3.3)':
     dependencies:
@@ -4332,9 +4332,9 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  '@astrojs/markdown-remark@6.3.5':
+  '@astrojs/markdown-remark@6.3.6':
     dependencies:
-      '@astrojs/internal-helpers': 0.7.1
+      '@astrojs/internal-helpers': 0.7.2
       '@astrojs/prism': 3.3.0
       github-slugger: 2.0.0
       hast-util-from-html: 2.0.3
@@ -4390,15 +4390,15 @@ snapshots:
       fast-xml-parser: 5.2.5
       kleur: 4.1.5
 
-  '@astrojs/sitemap@3.4.2':
+  '@astrojs/sitemap@3.5.0':
     dependencies:
       sitemap: 8.0.0
       stream-replace-string: 2.0.0
       zod: 3.25.34
 
-  '@astrojs/tailwind@6.0.2(astro@5.12.9(@types/node@20.11.17)(jiti@1.21.0)(lightningcss@1.23.0)(rollup@4.41.1)(terser@5.27.0)(typescript@5.3.3)(yaml@2.6.0))(tailwindcss@3.4.1)':
+  '@astrojs/tailwind@6.0.2(astro@5.13.2(@types/node@20.11.17)(jiti@1.21.0)(lightningcss@1.23.0)(rollup@4.41.1)(terser@5.27.0)(typescript@5.3.3)(yaml@2.6.0))(tailwindcss@3.4.1)':
     dependencies:
-      astro: 5.12.9(@types/node@20.11.17)(jiti@1.21.0)(lightningcss@1.23.0)(rollup@4.41.1)(terser@5.27.0)(typescript@5.3.3)(yaml@2.6.0)
+      astro: 5.13.2(@types/node@20.11.17)(jiti@1.21.0)(lightningcss@1.23.0)(rollup@4.41.1)(terser@5.27.0)(typescript@5.3.3)(yaml@2.6.0)
       autoprefixer: 10.4.21(postcss@8.5.3)
       postcss: 8.5.3
       postcss-load-config: 4.0.2(postcss@8.5.3)
@@ -5589,11 +5589,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  astro@5.12.9(@types/node@20.11.17)(jiti@1.21.0)(lightningcss@1.23.0)(rollup@4.41.1)(terser@5.27.0)(typescript@5.3.3)(yaml@2.6.0):
+  astro@5.13.2(@types/node@20.11.17)(jiti@1.21.0)(lightningcss@1.23.0)(rollup@4.41.1)(terser@5.27.0)(typescript@5.3.3)(yaml@2.6.0):
     dependencies:
       '@astrojs/compiler': 2.12.2
-      '@astrojs/internal-helpers': 0.7.1
-      '@astrojs/markdown-remark': 6.3.5
+      '@astrojs/internal-helpers': 0.7.2
+      '@astrojs/markdown-remark': 6.3.6
       '@astrojs/telemetry': 3.3.0
       '@capsizecss/unpack': 2.4.0
       '@oslojs/encoding': 1.1.0
