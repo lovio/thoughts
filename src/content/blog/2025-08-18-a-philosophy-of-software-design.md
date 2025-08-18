@@ -11,11 +11,13 @@ description: "A review of John Ousterhout's seminal work on software design prin
 
 > Great Design, all pays back
 
+## Table of contents
+
 我看过不少软件开发相关的书籍，其中有两本，我认为是对我的职业生涯是产生了重要影响的。一本书《Ruby元编程》，另一本就是 John Ousterhout 的这本《A Philosophy of Software Design》。前者是我的职业启蒙书，它让我真正掌握了一门语言。而后者，则是让我对软件开发升了一个境界。当然了，第二本书是我在工作了六七年之后读的。如果没有这么多年的开发经验，可能也无法理解这本书。
 
 大概是在 2020 年底的时候，我在学习 Raft，看论文的作者有 John Ousterhout，不查不知道，一查发现，这个老头子不简单啊！然后就找到了这本书。阅读之后更是醍醐灌顶。最近的工作又让我对 complexity 有了进一步的理解。我想把这本书分享给所有的朋友。尤其是在当下这个 AI 时代，在这个 LLM 可以快速吐出大量代码的时代。这本书涵盖的内容非常之多，我也不指望自己能在这一篇中说明白。我就挑些我觉得重要的。
 
-## 相关的资料
+## 相关资料
 
 - [《A Philosophy of Software Design》](https://www.amazon.sg/Philosophy-Software-Design-2nd/dp/173210221X) by John Ousterhout. 现在已经出到第二版了，我当时看的还是第一版。
 - [The Philosophy of Software Design – with John Ousterhout](https://www.youtube.com/watch?v=lz451zUlF-k) 这是最近（2025-04-09）的一个采访。非常精彩，强推。
@@ -24,7 +26,7 @@ description: "A review of John Ousterhout's seminal work on software design prin
 
 建议看前两个，第三个也还行。最后一个确实有点年代久远（Aug 1, 2018）了，但主题内容并不过时。这三个视频时间跨越非常之大，但变化并不大，就像 AWS S3 的接口一样稳定。
 
-## 关于作者 John Ousterhout
+## 关于 John Ousterhout
 
 [Ousterhout's web page at Stanford University](https://engineering.stanford.edu/people/john-ousterhout)
 
@@ -92,7 +94,7 @@ Complexity is anything related to the structure of a software system that makes 
   - naming
   - documentation
 
-## My Thoughts Mixed
+## Highlights Mixed with My Thoughts
 
 除了 Complexity 这个核心之外，这本书涵盖的内容很多。下面我就直接列一下我感兴趣的点了。其中结合了 John Ousterhout 的一些演讲和访谈以及我自己的理解。
 
